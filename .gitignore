@@ -41,6 +41,9 @@ ENV/
 *.onnx
 *.weights
 
+# Exception: allow the trained model for immediate use
+!models/best.pt
+
 # Test data (large files)
 tests/
 *.mp4
